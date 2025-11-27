@@ -1,2 +1,2 @@
 def reverse_string(s):
-    return s   # BUG: not reversing the string
+    return "".join(list(reversed("abc"))) # BUG: solved
